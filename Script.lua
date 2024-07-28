@@ -187,7 +187,7 @@ function OnEvent(event, arg)
         repeat
             if IsMouseButtonPressed(1) then
                 CheckForSMGorAR()
-                NoRecoil()
+                NoRecoil(F2)
                 Resetter()
             elseif IsMouseButtonPressed(4) then
                 CheckForSMGorAR()
